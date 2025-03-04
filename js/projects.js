@@ -4,6 +4,12 @@ const vueApp = new Vue({
     filtered_projects: [],
     projects: [
       {
+        image: "img/projects/roompilot.png",
+        name: "RoomPilot",
+        category_ids: [1, 4],
+        url: "https://bennyhotel.ng/"
+      },
+      {
         image: "img/projects/hiis-claims.jpg",
         name: "Health Insurance Innovative Systems",
         category_ids: [1, 2],
